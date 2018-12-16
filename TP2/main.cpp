@@ -1,4 +1,4 @@
-#include "WORD.h"
+ï»¿#include "WORD.h"
 #include <iostream>
 #include <sstream>
 #include <fstream>
@@ -19,7 +19,7 @@ int main(){
 			throw ERROR_101;
 	}
 	catch (int error){
-		cout << "Òàêîãî ôàéëà íå ñóùåñòâóåò" << endl;
+		cout << "Ð¢Ð°ÐºÐ¾Ð³Ð¾ Ñ„Ð°Ð¹Ð»Ð° Ð½Ðµ ÑÑƒÑ‰ÐµÑÑ‚Ð²ÑƒÐµÑ‚" << endl;
 		return ERROR_101;
 	}
 	while (!fin.eof()){
@@ -38,7 +38,7 @@ int main(){
 			throw ERROR_102;
 	}
 	catch (int error){
-		cout << "Ôàéë íå çàêðûò" << endl;
+		cout << "Ð¤Ð°Ð¹Ð» Ð½Ðµ Ð·Ð°ÐºÑ€Ñ‹Ñ‚" << endl;
 		return ERROR_102;
 	}
 	fin.close();
